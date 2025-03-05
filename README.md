@@ -38,6 +38,8 @@ Output is a text file which each line represents a score note (beat,pitch,id)- p
 
 # Usage
 
-A program to generate `note_alignment.txt` with `score.musicxml`, `performance.midi` and `beat_alignment.txt` as input is written in `main.py`.
+A program to generate `note_alignment.txt` with `score.musicxml`, `performance.midi` and `beat_alignment.txt` as input is written in `Genarate.py`.
 
-Change the input and output destinations as appropriate. If you change the file format of the input, you must change the function to load.
+In Main.py, you can specify the input score, performance, and beat-level-alignment, and then invoke the note-level-alignment generation method to execute the sequence of steps up to saving the alignment to a text file.
+
+In actual use, change the input and output destinations as appropriate in`Main.py`. If you change the file format of the input, you must change the function to load in `Main.py`.
